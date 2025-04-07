@@ -1,12 +1,101 @@
-main {
-    background-color:aqua 
+header{
+    background-color: orange;
+    padding: 20px;
 }
-body{ 
-     background-color: orange
+
+nav li {
+     display: inline;
+     margin: 0 0 0 15px;
 }
-p{ 
-    color:aliceblue
+
+
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:none;
 }
-#banner{
-    width: 100%;
+
+nav a:hover{
+    color:red;
+    text-decoration: underline;
+
+}
+
+#logo {
+    width: 250px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align:top;
+    margin: 0 1.5%;
+    padding: 30px 2px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: orange;
+}
+
+.produtos li:active{
+    border-color:red;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+    color: orange;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    padding: 40px 0;
+}
+
+footer img{
+    width: 200px;
+}
+
+.copyright {
+    color: black;
+    font-size:13px;
+    margin: 20px 0 0; 
 }
