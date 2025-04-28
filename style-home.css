@@ -10,3 +10,12 @@ p{
 #banner{
     width: 100%;
 }
+
+main {
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    position: relative;
+    padding:1cm;
+}
+
